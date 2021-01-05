@@ -3,7 +3,7 @@ RUN mkdir p /app
 
 WORKDIR /app
 
-COPY package*.json ./git 
+COPY . .
 RUN npm install
 CMD ["npm", "start"]
 
